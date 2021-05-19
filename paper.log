@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.4.26)  14 MAY 2021 16:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.5.17)  19 MAY 2021 13:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -783,33 +783,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 91--91
 [][][]\T1/LinuxLibertineT-TLF/m/n/7 (+20) https://www.statista.com/statistics/330695/number-of-smartphone-users-
  []
 
-<./images//cbt_picture.jpg, id=62, 752.8125pt x 677.53125pt>
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
+(Font)              scaled to size 9.0pt on input line 95.
+<./images//cbt_picture.jpg, id=63, 752.8125pt x 677.53125pt>
 File: ./images//cbt_picture.jpg Graphic file (type jpg)
 <use ./images//cbt_picture.jpg>
-Package pdftex.def Info: ./images//cbt_picture.jpg  used on input line 106.
+Package pdftex.def Info: ./images//cbt_picture.jpg  used on input line 108.
 (pdftex.def)             Requested size: 241.14749pt x 217.03152pt.
 
-Underfull \hbox (badness 3009) in paragraph at lines 108--108
-[]\T1/LinuxLibertineT-TLF/b/n/9 Figure 1: |The re-la-tion-ships among cog-ni-tion, emo-tion,
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
+[][][]\T1/LinuxLibertineT-TLF/m/n/7 (+20) https://integralsomaticpsychology.com/wp-content/uploads/2018/02/ISP-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--108
-\T1/LinuxLibertineT-TLF/b/n/9 ([]$https : / / integralsomaticpsychology . com / wp -[] content /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 108--108
-\T1/LinuxLibertineT-TLF/b/n/9 uploads / 2018 / 02 / ISP -[] Embodied -[] Cognition -[] Diagram -[] Raja -[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 88--127
+Underfull \hbox (badness 10000) in paragraph at lines 88--130
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--127
+Underfull \hbox (badness 10000) in paragraph at lines 88--130
 
  []
 
@@ -819,65 +811,61 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [1.1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
  </home/moritz/Uni/Hauptseminar/Template UVIS/./images//cbt_picture.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/it' will be
+(Font)              scaled to size 10.95pt on input line 142.
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
 [][][]\T1/LinuxLibertineT-TLF/m/n/7 (+20) https://emerj.com/ai-application-comparisons/chatbots-mental-health-therapy-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--176
+Underfull \hbox (badness 10000) in paragraph at lines 143--179
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--176
+Underfull \hbox (badness 10000) in paragraph at lines 143--179
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--176
+Underfull \hbox (badness 10000) in paragraph at lines 143--179
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 186--186
-[][][]\T1/LinuxLibertineT-TLF/m/n/7 (+20) https://www.skylandtrail.org/4-differences-between-cbt-and-dbt-and-how-to-tell-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 178--202
+Underfull \hbox (badness 10000) in paragraph at lines 181--205
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--202
+Underfull \hbox (badness 10000) in paragraph at lines 181--205
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--202
+Underfull \hbox (badness 10000) in paragraph at lines 181--205
 
  []
 
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 202.
+(Font)              scaled to size 9.0pt on input line 205.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 202.
+(Font)              scaled to size 7.0pt on input line 205.
 [2.2]
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 9.0pt on input line 212.
-<./images//privacy_base.png, id=126, 842.14626pt x 436.63126pt>
+<./images//privacy_base.png, id=129, 842.14626pt x 436.63126pt>
 File: ./images//privacy_base.png Graphic file (type png)
 <use ./images//privacy_base.png>
-Package pdftex.def Info: ./images//privacy_base.png  used on input line 228.
+Package pdftex.def Info: ./images//privacy_base.png  used on input line 235.
 (pdftex.def)             Requested size: 241.14749pt x 125.0275pt.
  [3.3 </home/moritz/Uni/Hauptseminar/Template UVIS/./images//privacy_base.png>]
-<./images//routes.png, id=140, 522.95375pt x 586.19pt>
+<./images//routes.png, id=144, 522.95375pt x 586.19pt>
 File: ./images//routes.png Graphic file (type png)
 <use ./images//routes.png>
-Package pdftex.def Info: ./images//routes.png  used on input line 242.
+Package pdftex.def Info: ./images//routes.png  used on input line 250.
 (pdftex.def)             Requested size: 241.14749pt x 270.31256pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 236--264
+Underfull \hbox (badness 10000) in paragraph at lines 244--275
 
  []
 
@@ -887,26 +875,23 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [4.4 </home/moritz/Uni/Hauptseminar/Template UVIS/./images//routes.png>] (/home/moritz/Uni/Hauptseminar/Template UVIS/paper.bbl
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
 (Font)              scaled to size 7.0pt on input line 6.
-)
-Overfull \vbox (1.577pt too high) has occurred while \output is active []
-
- [5.5] (/home/moritz/Uni/Hauptseminar/Template UVIS/paper.aux)
+) [5.5] (/home/moritz/Uni/Hauptseminar/Template UVIS/paper.aux)
 Package rerunfilecheck Info: File `paper.out' has not changed.
 (rerunfilecheck)             Checksum: 265CDEAAC88D266A7A83A381569C6FDE;1707.
  ) 
 Here is how much of TeX's memory you used:
- 18858 strings out of 479383
- 285152 string characters out of 5875830
- 635647 words of memory out of 5000000
- 35134 multiletter control sequences out of 15000+600000
- 525442 words of font info for 258 fonts, out of 8000000 for 9000
+ 18909 strings out of 479383
+ 286419 string characters out of 5875830
+ 637243 words of memory out of 5000000
+ 35139 multiletter control sequences out of 15000+600000
+ 535877 words of font info for 288 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 92i,11n,128p,548b,634s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc}{/usr/share/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{/usr/share/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}{/usr/share/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}</usr/share/texmf-dist/fonts/type1/public/libertine/LinBiolinumT.pfb></usr/share/texmf-dist/fonts/type1/public/libertine/LinBiolinumTB.pfb></usr/share/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb></usr/share/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb></usr/share/texmf-dist/fonts/type1/public/libertine/LinLibertineTI.pfb>
-Output written on "/home/moritz/Uni/Hauptseminar/Template UVIS/paper.pdf" (5 pages, 547377 bytes).
+ 92i,11n,128p,569b,522s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/libertine/lbtn_ki75ao.enc}{/usr/share/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{/usr/share/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc}{/usr/share/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}{/usr/share/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}</usr/share/texmf-dist/fonts/type1/public/libertine/LinBiolinumT.pfb></usr/share/texmf-dist/fonts/type1/public/libertine/LinBiolinumTB.pfb></usr/share/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb></usr/share/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb></usr/share/texmf-dist/fonts/type1/public/libertine/LinLibertineTBI.pfb></usr/share/texmf-dist/fonts/type1/public/libertine/LinLibertineTI.pfb>
+Output written on "/home/moritz/Uni/Hauptseminar/Template UVIS/paper.pdf" (5 pages, 582091 bytes).
 PDF statistics:
- 199 PDF objects out of 1000 (max. 8388607)
- 173 compressed objects within 2 object streams
- 51 named destinations out of 1000 (max. 500000)
- 35972 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 211 PDF objects out of 1000 (max. 8388607)
+ 182 compressed objects within 2 object streams
+ 52 named destinations out of 1000 (max. 500000)
+ 36484 words of extra memory for PDF output out of 42996 (max. 10000000)
 
