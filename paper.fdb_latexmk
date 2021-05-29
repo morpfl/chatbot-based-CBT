@@ -1,19 +1,19 @@
 # Fdb version 3
-["bibtex paper"] 1621698094 "paper.aux" "paper.bbl" "paper" 1621698288
+["bibtex paper"] 1622200773 "paper.aux" "paper.bbl" "paper" 1622201105
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/unsrt.bst" 1480098433 18030 1376b4b231b50c66211e47e42eda2875 ""
   "library.bib" 1621497197 60130 923672e6fa4650191bed65403e0a352b ""
-  "paper.aux" 1621698288 5147 0fd7c1b06908b3e31d851455f8a9fce1 ""
+  "paper.aux" 1622201104 5359 de1c8db1d56190920314c56a629c9549 ""
   "paper.bcf" 1621342062 107003 3ac88a898406342b1093016c9e055cef ""
   (generated)
   "paper.bbl"
   "paper.blg"
-["pdflatex"] 1621698288 "/home/moritz/Uni/HS/chatbot-based-CBT/paper.tex" "/home/moritz/Uni/HS/chatbot-based-CBT/paper.pdf" "paper" 1621698288
+["pdflatex"] 1622201104 "/home/moritz/Uni/HS/chatbot-based-CBT/paper.tex" "/home/moritz/Uni/HS/chatbot-based-CBT/paper.pdf" "paper" 1622201105
   "./images/cbt_picture.jpg" 1621342062 84247 93a5240a1bb21ca7c3e7e99a14a28048 ""
   "./images/privacy_base.png" 1621342062 20704 9d12a38e500c7137cc3f123e9b159d1e ""
   "./images/routes.png" 1621342062 83930 805ace6669dc6b9af73fde23f5853912 ""
   "/etc/texmf/web2c/texmf.cnf" 1539331981 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/moritz/Uni/HS/chatbot-based-CBT/paper.aux" 1621698288 5147 0fd7c1b06908b3e31d851455f8a9fce1 ""
-  "/home/moritz/Uni/HS/chatbot-based-CBT/paper.tex" 1621698287 33505 639a619e938311c2c13fc07748e3776b ""
+  "/home/moritz/Uni/HS/chatbot-based-CBT/paper.aux" 1622201104 5359 de1c8db1d56190920314c56a629c9549 ""
+  "/home/moritz/Uni/HS/chatbot-based-CBT/paper.tex" 1622201103 38408 3838eb089d4da90590848b748880f5ac ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex9.tfm" 1480098698 996 a18840b13b499c08ac2de96a99eda4bc ""
@@ -135,14 +135,14 @@
   "images/cbt_picture.jpg" 1621342062 84247 93a5240a1bb21ca7c3e7e99a14a28048 ""
   "images/privacy_base.png" 1621342062 20704 9d12a38e500c7137cc3f123e9b159d1e ""
   "images/routes.png" 1621342062 83930 805ace6669dc6b9af73fde23f5853912 ""
-  "paper.aux" 1621698288 5147 0fd7c1b06908b3e31d851455f8a9fce1 ""
-  "paper.bbl" 1621698094 4540 d1b625474bc05f68f3e8f01768831111 "bibtex paper"
-  "paper.out" 1621698288 2119 51e00edb2c325ad959fce77f718f271e ""
-  "paper.tex" 1621698287 33505 639a619e938311c2c13fc07748e3776b ""
+  "paper.aux" 1622201104 5359 de1c8db1d56190920314c56a629c9549 ""
+  "paper.bbl" 1622200773 4540 d1b625474bc05f68f3e8f01768831111 "bibtex paper"
+  "paper.out" 1622201104 2186 10de61390049aff1f217e508dec3d43b ""
+  "paper.tex" 1622201103 38408 3838eb089d4da90590848b748880f5ac ""
   (generated)
   "paper.pdf"
-  "paper.log"
-  "/home/moritz/Uni/HS/chatbot-based-CBT/paper.log"
   "paper.out"
-  "/home/moritz/Uni/HS/chatbot-based-CBT/paper.pdf"
+  "/home/moritz/Uni/HS/chatbot-based-CBT/paper.log"
   "paper.aux"
+  "/home/moritz/Uni/HS/chatbot-based-CBT/paper.pdf"
+  "paper.log"

@@ -40,7 +40,7 @@
 %%
 %% The "title" command has an optional parameter,
 %% allowing the author to define a "short title" to be used in page headers.
-\title{Chatbot based Cognitive Behavioural Therapy}
+\title{Improvements of Chatbot-Applications offering Cognitive Behavioural Therapy regarding Security, Privacy and Safety}
 
 %%
 %% The "author" command and its associated commands are used to define
@@ -64,14 +64,21 @@
 %% The abstract is a short summary of the work to be presented in the
 %% article.
 \begin{abstract}
-  lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
-  lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
-  lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
-  lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
-  lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
-  lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
-  lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-  lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
+While chatbot-applications in general have become present in areas such as consulting or customer support, they are also implemented
+within applications offering Cognitive Behavioural Therapy (CBT). CBT aims to improve a patients mood by changing behavioural patterns and proposing
+activities that can help to achive a higher mindfullness.
+\\
+Two state-of-the art chatbots have been reviewed regarding aspects of Safety, Security and Efficiacy. The review has shown, that they have a positive 
+impact on a users mood, take care for sensitive data and can react to critical situations but have also several weaknesses that should be considered. 
+\\
+As chatbots for mental health belong to Human Computer Interaction (HCI), certain requirements have been reviewed that an application should meet. This review has shown
+that users trust high-quality chatbots with sophisticated responses more while having less privacy concerns at the same time. Furthermore, the deletion and 
+inappropriate use of data are the two aspects, users worry the most about. 
+\\
+Based on the review of the existing chatbots and the requirements, three options have been proposed who aim to meet them.
+The Knowledge and Data Dashboard, that constantly allow access to saved data and offers options like data deletion, 
+the Chatbot Setup Phase that try to personalize the application as much as possible to improve the general user experience and 
+a Safety Certificate, that ensures the appropriate handling of critical situations.   
 \end{abstract}
 
 %%
@@ -334,10 +341,31 @@ be asked during the daily dialogs.
 Additionally, too much ambient information should be avoided and the main functionality should be focused. An argument against it could be the funding of the app. The reviewed examples \emph{Woebot} and \emph{Wysa} do not advertise within the application but it is a conceivable approach which leads 
 to a trade-off that has to be made. It could be part of future research how advertisements are seen as disturbing ambient information and if they negatively influence the outcomes. 
 \\
-In order to 
+\subsection{Safety certificate}
+As Grové \cite{Grove2021} points out, chabots for mental health should notice and react to critical situations in a sophisticated way due to the vulnerable target group. While the reviewed chatbots meet the requirements, Kretzschmar et. al \cite{Kretzschmar2019} defined,
+no information is provided about how they infer if a situation might be critical. In order to improve the general transparency and to ease the assessment if the application can be used in a therapeutical manner, the developing companies could publish on their website either how the machine learning model of their applications infers 
+a critical situations or what keywords lead to it in terms of natural language processing.\\
+Another conceivable aspect which would make sense if the supply and demand for mental health chatbots continues to grow is the awarding of a safety certificate issued by an independent company or institute. This certificate could include certain aspects which therapists and doctors consider as crucial for the safety of a chatbot.\\ 
+Clinicians could assess easily with the help of this certificate if the application is suitable for a therapeutical usage.\\
+Furthermore the certificate could be expanded for Privacy Issues and Efficiacy as well which would turn the certificate into a general quality feature for mental health chatbots.
 \section{Conclusion}
+Nowadays, the amount of people who use the internet as first source of information has increased \cite{Wyatt2015} while it offers many applications for CBT such as chatbots. 
+\\
+Current and popular examples like \emph{Wysa} or \emph{Woebot} are available as a standalone app or through third party applications. Studies have shown that their CBT is efficiant \cite{Fitzpatrick2017,Inkster}, but in order to improve it and to tackle problems such as missing trust in a chatbot, further improvements could be implemented like personalization 
+or the provision of more transparency. To achive that, a chatbot setup phase has been propsed in which specific questions could be asked concerning preferences and personal aspects of the user. It could be considered as the preliminary talk prior to the therapy a human therapist conducts.
+The chatbot setup phase would lead to an implementation of the PERMA aspects, that Ludden et. al \cite{Ludden2015} propose and which have been presented in chapter 3.2. Those aspects are promising to increase the general well-being of a user and hence the efficacy of the chabot application.
+\\
+The developing companies of both reviewed chatbots transparently explain what data is stored for what purpose.\\
+Nevertheless, the review of general requirements for HCI applications has shown, that more information about data collection should be provided and how it is possible for the user to delete it.\cite{Shamim2021}
+\\
+Furthermore, users are not distinguishing between data and information.\cite{Lee2011}
+In order to tackle those aspects, a knowledge and data dashboard is proposed that constantly provides information about the data the chatbot has collected and what it did derive from it.
+The main advantages are the constant access to personal and sensitive data on the one hand. On the other hand, the provisioning of it could simplify administration processes such as deletion requests as they are done automatically.
+\\
+Considering Safety aspects, the reviewed chatbots already meet the requirements Kretzschmar et. al \cite{Kretzschmar2019} propose. Both of them explain that they are just robots and engage the user to do non-digital activities to prevent over-reliance.
+The only option to figure out if the user notifies and react to critical situations is trial and error. In order to improve the transparently, a certificate is suggested, that could consider certain aspects doctors or therapists consider as crucial.
+This certificate could be expaneded to other aspects which could result in a quality feature for mental health chatbots.
 
-\section{Discussion}
 
 
 %%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.5.20)  22 MAY 2021 17:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.5.20)  28 MAY 2021 13:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -560,187 +560,189 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 ) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
 [][][]\OT1/cmr/m/n/7 (+2) https://www.statista.com/statistics/330695/number-of-smartphone-
  []
 
 <./images/cbt_picture.jpg, id=72, 752.8125pt x 677.53125pt>
 File: ./images/cbt_picture.jpg Graphic file (type jpg)
 <use ./images/cbt_picture.jpg>
-Package pdftex.def Info: ./images/cbt_picture.jpg  used on input line 108.
+Package pdftex.def Info: ./images/cbt_picture.jpg  used on input line 115.
 (pdftex.def)             Requested size: 241.14749pt x 217.03152pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--113
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
 [][][]\OT1/cmr/m/n/7 (+20) https://integralsomaticpsychology.com/wp-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--113
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
 \OT1/cmr/m/n/7 (+20) content/uploads/2018/02/ISP-Embodied-Cognition-Diagram-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--130
+Underfull \hbox (badness 10000) in paragraph at lines 95--137
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--130
+Underfull \hbox (badness 10000) in paragraph at lines 95--137
 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [1.1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+[1.1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
  <./images/cbt_picture.jpg>]
-Overfull \hbox (22.86195pt too wide) in paragraph at lines 146--146
+Overfull \hbox (22.86195pt too wide) in paragraph at lines 153--153
 [][][]\OT1/cmr/m/n/7 (-20) https://play.google.com/store/apps/details?id=com.woebot&hl=de&gl=US,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--153
+Underfull \hbox (badness 10000) in paragraph at lines 160--160
 [][][]\OT1/cmr/m/n/7 (+20) https://emerj.com/ai-application-comparisons/chatbots-mental-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--153
+Underfull \hbox (badness 10000) in paragraph at lines 160--160
 \OT1/cmr/m/n/7 (+20) health-therapy-comparing-5-current-apps-use-cases/, last ac-cess:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--180
+Underfull \hbox (badness 10000) in paragraph at lines 151--187
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--180
+Underfull \hbox (badness 10000) in paragraph at lines 151--187
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--180
+Underfull \hbox (badness 10000) in paragraph at lines 151--187
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--190
+Underfull \vbox (badness 2096) has occurred while \output is active []
+
+Missing character: There is no Ã in font cmss8!
+Missing character: There is no ¼ in font cmss8!
+ [2.2]
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
 [][][]\OT1/cmr/m/n/7 (+20) https://www.skylandtrail.org/4-differences-between-cbt-and-dbt-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--206
+Underfull \hbox (badness 10000) in paragraph at lines 189--213
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--206
+Underfull \hbox (badness 10000) in paragraph at lines 189--213
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--206
+Underfull \hbox (badness 10000) in paragraph at lines 189--213
 
  []
 
-Missing character: There is no Ã in font cmss8!
-Missing character: There is no ¼ in font cmss8!
-[2.2]
-<./images/privacy_base.png, id=137, 842.14626pt x 436.63126pt>
+<./images/privacy_base.png, id=135, 842.14626pt x 436.63126pt>
 File: ./images/privacy_base.png Graphic file (type png)
 <use ./images/privacy_base.png>
-Package pdftex.def Info: ./images/privacy_base.png  used on input line 217.
+Package pdftex.def Info: ./images/privacy_base.png  used on input line 224.
 (pdftex.def)             Requested size: 241.14749pt x 125.0275pt.
 Missing character: There is no Ã in font cmbx9!
 Missing character: There is no ¼ in font cmbx9!
 Missing character: There is no Ã in font cmbx9!
 Missing character: There is no ¼ in font cmbx9!
 
-Underfull \hbox (badness 1762) in paragraph at lines 218--218
+Underfull \hbox (badness 1762) in paragraph at lines 225--225
 []\OT1/cmr/bx/n/9 Figure 2: |The con-nec-tion be-tween in-for-ma-tion,
  []
 
-[3.3 <./images/privacy_base.png>]
-<./images/routes.png, id=156, 522.95375pt x 586.19pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[3.3]
+<./images/routes.png, id=155, 522.95375pt x 586.19pt>
 File: ./images/routes.png Graphic file (type png)
 <use ./images/routes.png>
-Package pdftex.def Info: ./images/routes.png  used on input line 251.
+Package pdftex.def Info: ./images/routes.png  used on input line 258.
 (pdftex.def)             Requested size: 241.14749pt x 270.31256pt.
 
-Overfull \hbox (3.58936pt too wide) in paragraph at lines 245--276
+Overfull \hbox (3.58936pt too wide) in paragraph at lines 252--283
 \OT1/cmr/m/n/9 (-20) hence sup-ports the rec-om-men-da-tion to im-ple-ment the PERMA
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 245--276
+Underfull \hbox (badness 10000) in paragraph at lines 252--283
 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 Missing character: There is no Ã in font cmss8!
 Missing character: There is no ¼ in font cmss8!
- [4.4 <./images/routes.png>]
+[4.4 <./images/privacy_base.png> <./images/routes.png>]
 Missing character: There is no Ã in font cmr9!
 Missing character: There is no © in font cmr9!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [5.5]
-Underfull \hbox (badness 10000) in paragraph at lines 315--318
+Underfull \hbox (badness 10000) in paragraph at lines 322--325
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 319--324
+Underfull \hbox (badness 10000) in paragraph at lines 326--331
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--327
+Underfull \hbox (badness 10000) in paragraph at lines 331--334
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 327--330
+Underfull \hbox (badness 10000) in paragraph at lines 334--337
 
  []
 
-(/home/moritz/Uni/HS/chatbot-based-CBT/paper.bbl
-Underfull \vbox (badness 4132) has occurred while \output is active []
 
+Underfull \hbox (badness 10000) in paragraph at lines 341--344
+
+ []
+
+Missing character: There is no Ã in font cmr9!
+Missing character: There is no © in font cmr9!
 Missing character: There is no Ã in font cmss8!
 Missing character: There is no ¼ in font cmss8!
- [6.6]) [7.7]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 353.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 353.
+[6.6] (/home/moritz/Uni/HS/chatbot-based-CBT/paper.bbl)
+
+Package balance Warning: You have called \balance in second column
+(balance)                Columns might not be balanced.
+
+[7.7]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 381.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 381.
  (/home/moritz/Uni/HS/chatbot-based-CBT/paper.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 353.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 353.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 381.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 381.
 Package rerunfilecheck Info: File `paper.out' has not changed.
-(rerunfilecheck)             Checksum: 51E00EDB2C325AD959FCE77F718F271E;2119.
+(rerunfilecheck)             Checksum: 10DE61390049AFF1F217E508DEC3D43B;2186.
  ) 
 Here is how much of TeX's memory you used:
  15373 strings out of 494880
- 222598 string characters out of 6179601
- 375135 words of memory out of 5000000
+ 222608 string characters out of 6179601
+ 374135 words of memory out of 5000000
  18065 multiletter control sequences out of 15000+600000
  17938 words of font info for 135 fonts, out of 8000000 for 9000
  197 hyphenation exceptions out of 8191
- 60i,11n,94p,852b,562s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,11n,94p,852b,481s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on /home/moritz/Uni/HS/chatbot-based-CBT/paper.pdf (7 pages, 421448 bytes).
+Output written on /home/moritz/Uni/HS/chatbot-based-CBT/paper.pdf (7 pages, 429675 bytes).
 PDF statistics:
- 273 PDF objects out of 1000 (max. 8388607)
- 224 compressed objects within 3 object streams
+ 282 PDF objects out of 1000 (max. 8388607)
+ 233 compressed objects within 3 object streams
  57 named destinations out of 1000 (max. 500000)
  19096 words of extra memory for PDF output out of 20736 (max. 10000000)
 
