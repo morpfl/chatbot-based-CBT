@@ -36,6 +36,13 @@ Kathleen~Kara Fitzpatrick, Alison Darcy, and Molly Vierhile.
   (Woebot): A Randomized Controlled Trial}.
 \newblock {\em JMIR Mental Health}, 4(2):e19, 2017.
 
+\bibitem{Inkster}
+Becky Inkster, Shubhankar Sarda, and Vinod Subramanian.
+\newblock {An empathy-driven, conversational artificial intelligence agent
+  (Wysa) for digital mental well-being: Real-world data evaluation
+  mixed-methods study}.
+\newblock {\em JMIR mHealth and uHealth}, 6(11), 2018.
+
 \bibitem{Ludden2015}
 Geke~Ds Ludden, Thomas~J.L. {Van Rompay}, Saskia~M. Kelders, and Julia~Ewc {Van
   Gemert-Pijnen}.
@@ -57,13 +64,6 @@ Kira Kretzschmar, Holly Tyroll, Gabriela Pavarini, Arianna Manzini, and Ilina
   in Mental Health Support}.
 \newblock {\em Biomedical Informatics Insights}, 11:117822261982908, 2019.
 
-\bibitem{Inkster}
-Becky Inkster, Shubhankar Sarda, and Vinod Subramanian.
-\newblock {An empathy-driven, conversational artificial intelligence agent
-  (Wysa) for digital mental well-being: Real-world data evaluation
-  mixed-methods study}.
-\newblock {\em JMIR mHealth and uHealth}, 6(11), 2018.
-
 \bibitem{Reinsel2018}
 David Reinsel, John Gantz, and John Rydning.
 \newblock {Data Age 2025: The Digitization of the World From Edge to Core}.
@@ -76,12 +76,12 @@ Andrew~S. Patrick and Steve Kenny.
 \newblock {\em LNCS 2760 - Privacy Enhancing Technologies}, pages 107 -- 124,
   2003.
 
-\bibitem{Shamim2021}
-S~Shamim, S~Cang, H~Yu The International~Journal of~Human, and Undefined 2019.
+\bibitem{Saglam2021}
+Rahime {Belen Saglam}, Jason~R.C Nurse, and Duncan Hodges.
 \newblock {Privacy Concerns in Chatbot Interactions: When to Trust and When to
   Worry.}
-\newblock {\em 23rd International Conferenceon Human-Computer Interaction},
-  30(16):2387--2417, 2021.
+\newblock In {\em 23rd International Conferenceon Human-Computer Interaction},
+  volume~30, pages 2387--2417, 2021.
 
 \bibitem{Ischen}
 Carolin Ischen, Theo Araujo, Hilde Voorveld, Guda van Noort, and Edith Smit.
@@ -97,11 +97,11 @@ Min~Kyung Lee, Karen~P. Tang, Jodi Forlizzi, and Sara Kiesler.
 \newblock {\em HRI 2011 - Proceedings of the 6th ACM/IEEE International
   Conference on Human-Robot Interaction}, pages 181--182, 2011.
 
-\bibitem{Donkina}
+\bibitem{Donkin2011}
 Liesje Donkin, Helen Christensen, Sharon~L Naismith, Bruce Neal, Ian~B Hickie,
   and Nick Glozier.
 \newblock {A systematic review of the impact of adherence on the effectiveness
-  of e-therapies}, 2011.
+  of e-therapies}, aug 2011.
 
 \bibitem{Grove2021}
 Christine Grov{\'{e}}.
