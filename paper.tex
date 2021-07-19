@@ -65,17 +65,17 @@
 %% article.
 \begin{abstract}
 While chatbot-applications in general have become present in areas such as consulting or customer support, they are also implemented
-within applications offering Cognitive Behavioural Therapy (CBT). CBT aims to improve a patients mood by changing behavioural patterns and proposing
+within applications offering Cognitive Behavioural Therapy (CBT). CBT aims to improve a patient's mood by changing behavioural patterns and proposing
 activities that can help to achieve a higher mindfulness.
 \\
 Two state-of-the-art chatbots have been reviewed regarding aspects of safety, privacy and efficacy. The review has shown, that they have a positive 
-impact on a users mood, take care of sensitive data and can react to critical situations but also have several weaknesses that should be addressed.
+impact on a user's mood, take care of sensitive data and can react to critical situations but also have several weaknesses that should be addressed.
 \\
 As chatbots for mental health belong to Human Computer Interaction (HCI), certain requirements have been reviewed that an application in this field should meet. This review has shown
 that users trust high-quality chatbots with sophisticated responses more while having less privacy concerns at the same time. Furthermore, the deletion and 
 inappropriate use of data are the two aspects, users worry about the most. 
 \\
-Based on the review of the existing chatbots and the requirements, three development approaches have been proposed who aim to meet them.
+Based on the review of the existing chatbots and the requirements, three development approaches have been proposed who aim to meet them:
 The Knowledge and Data Dashboard, that constantly allows access to saved data and offers options like data deletion, 
 the Chatbot Setup Phase trying to personalize the application as much as possible to improve the general user experience and 
 a privacy certificate, that ensures the appropriate handling of critical situations.   
@@ -126,12 +126,12 @@ is relatively low. Donkin et. al \cite{Donkin} found a median minimal completion
 One possible reason for this lack of adherence is the missing human interaction of internet-based CBT\cite{Ly2017}.
 \\
 The usage of chatbots is considered as a possible solution for this problem. While they are providing CBT on the same level 
-as non-chatbot based approaches, they can deliver an artificial human interaction that is supposed to increase the
+as human-based approaches, they can deliver an artificial human interaction that is supposed to increase the
 therapy adherence which can be seen as an important aspect of a successful therapy.\cite{Suganuma2018} 
 \\\\
 This paper starts with a review of the conducted research and analyses weaknesses and strengths as well as risks and chances. 
 Subsequently, it will analyse some general requirements a chatbot used for CBT should meet.
-The review and analysis will consider the following points:
+The review and analysis will consider the following points. 
 \\
 \begin{itemize}
   \item{\textbf{Safety}}\\
@@ -141,9 +141,12 @@ The review and analysis will consider the following points:
   Talking about private topics is one core aspect of CBT. It results in sensitive data which is processed by the application. Hence it is crucial to focus on privacy aspects.
   \\
   \item{\textbf{Efficacy}}\\
-  The usage of chatbots for mental health only serves its purpose if the offered therapy is efficiant. Furthermore, recent studies have already examined the efficacy of mental health chatbots.\cite{Fitzpatrick2017,Inkster}
+  The usage of chatbots for mental health only serves its purpose if the offered therapy is efficient. Furthermore, recent studies have already examined the efficacy of mental health chatbots.\cite{Fitzpatrick2017,Inkster}
   \\
 \end{itemize}
+On the one hand, at least one aspect out of them has been considered in most of the referenced literature. On the other hand, Kretzschmar et. al \cite{Kretzschmar2019} found out, that users of mental health chatbots consider 
+them as most important.
+\\
 What are aspects that need improvement during further development approaches and what methods and measures might be suitable to achieve that? 
 Considering the state of the art and the general requirements, the paper tries to answer this question regarding safety aspects, efficacy and privacy.
 It finally gives an outlook regarding future developments and points out limits of chatbot based CBT.
@@ -152,25 +155,25 @@ It finally gives an outlook regarding future developments and points out limits 
 \section{Strenghts and weaknesses of existing chatbots}
 \label{sec:two}
 This far, there are a couple of chatbots available. This paper will mainly focus on the \emph{Woebot} Chatbot and \emph{Wysa} for several reasons.
-On the one hand, they have been developed in a research oriented context. 
+They are the only apps that offer a real chatbot. Others like AbleTo\footnote{https://www.ableto.com/} or talkspace\footnote{https://try.talkspace.com/} focus more on online CBT with a real therapist.
+On the one hand, \emph{Woebot} and \emph{Wysa} have been developed in a research oriented context. 
 The examples are available in english language and free to use.\footnote{https://woebothealth.com/about-us/, last access: 01.05.2021}\textsuperscript{,}\footnote{https://www.wysa.io/faq, last access: 01.05.2021}
 \\
 Additionally, the developers provide numerous information on their website
 like experience reports or technical aspects.
 On the other hand, \emph{Wysa} and \emph{Woebot} have been considered in most of recent research.
 It revealed some weaknesses of those chatbots, some chances and also risks concerning efficacy, privacy and safety.
-
 \subsection{\emph{Woebot}}
 \label{sec:two_one}
 The \emph{Woebot} chatbot is a product of the company \emph{WoebotHealth} which has its headquarter in California. It is the result of a resarch 
 project at the university of Stanford in 2017 and has raised 8.000.000 dollars of funds.
 \emph{Woebot} is available as a standalone app in \emph{Apple}'s App Store and in \emph{Google Play} store where it reached more than 100.000 downloads\footnote{https://play.google.com/store/apps/details?id=com.woebot\&hl=de\&gl=US, last access: 03.05.2021} and as 
-a \emph{Facebook} chatbot. It is based on natural language processing and offers free-text inputs as well as predefined answers.
+a \emph{Facebook} chatbot. It is based on natural language processing and offers free text inputs as well as predefined answers.
 In general, it gives hints on how to change the thinking and guides the user through techniques such as \emph{Gratitude Journaling}. 
 Based on the answers it creates a graph monitoring mood changes during the week.
 \emph{Woebot} aims to reach patients and clinicians. While users that are currently not in therapy have the opportunity to use it,
 it can also improve and support ongoing therapies clinicians are conducting.
-Currently, the usage of \emph{Woebot} is completely free of charge. Nevertheless, \emph{Woebot} Health announces on its website, that they are moving forward
+Currently, the usage of \emph{Woebot} is completely free of charge. Nevertheless, \emph{WoebotHealth} announces on its website, that they are moving forward
 to develop a more sustainable business model which could lead to costs for the users.\footnote{https://woebothealth.com/about-us/, last access: 01.05.2021}\textsuperscript{,}\footnote{https://emerj.com/ai-application-comparisons/chatbots-mental-health-therapy-comparing-5-current-apps-use-cases/, last access: 03.05.2021}
 \\\\
 A randomized controlled trial with college students by Fitzpatrick et. al \cite{Fitzpatrick2017} has shown that the usage of \emph{Woebot} significantly reduces
@@ -191,30 +194,33 @@ to improve the services. \emph{WoebotHealth} also obtains data from other source
 it collects data that has been made public by the user. Examples for third-party applications are social networks or app stores. 
 The company does not share information with third parties, but it does not have direct control of data that is stored if the chatbot
 is used through them like \emph{Facebook's} messenger. The access and deletion of it then depends on \emph{Facebook's} privacy policy.\footnote{https://woebothealth.com/privacy-webview/, last access: 04.05.2021}
+\\
+A review of \emph{Woebot} by Megan Molteni published in the WIRED magazine \cite{Molteni2017} critizises the possibilty of accessing the chatbot through the messenger of \emph{Facebook}.
+She points out that medical data privacy and security law can not be applied to \emph{Woebot} conversations as it is not considered as a licensed medical provider when accessed through it.
 \\\\
 As chatbots for CBT interact with people who might have serious mental problems, safety and the recognition of emergency situations are important
 aspects. If a user starts a conversation with \emph{Woebot}, the bot advises early that it is not a human being. It notes that it has limited capabilities and that it might 
 be better for some individuals to see a real therapist. In order to discourage over-reliance, \emph{Woebot} tries to end conversations after a certain amount of time and proposes many non-digital activities in the real world.
-Those proposals of non-technology-based activites are part of evidence-based recommendations for mental health app development\cite{Bakker2016}.
-Considering emergency situations, \emph{Woebot} is able to recognize user inputs e.g 'SOS' or 'suicide' as such. It reacts with a list of helplines
+Those proposals of non-technology-based activities are part of evidence-based recommendations for mental health app development\cite{Bakker2016}.
+Considering emergency situations, \emph{Woebot} is able to recognize user inputs e.g. 'SOS' or 'suicide' as such. It reacts with a list of helplines
 which can provide further support.\cite{Kretzschmar2019}
 
 \subsection{\emph{Wysa}}
 \label{sec:two_two}
 The \emph{Wysa} Chatbot, developed by \emph{Touchkin}, has certain commonalities but also major differences in comparison to \emph{Woebot}. It is also a mobile chatbot app using a text-based interface with the possibility of entering 
-free-text input or predefined answers. The biggest difference is the option of having contact to 
+free text input or predefined answers. The biggest difference is the option of having contact to 
 a human therapist while using \emph{Wysa}. It is a chargeable feature which costs 29.99\$ per month. The usage of the chatbot without it is free of charge. It is available
 in \emph{Apple}'s app store and \emph{Google Play} store where it has been downloaded more than 1.000.000 times\footnote{https://play.google.com/store/apps/details?id=bot.touchkin, last access: 05.05.2021}. 
-The company is located in Bangalore and has been found in collaboration with a research team from the universities of Cambridge and Columbia.
+The company is located in Bangalore and has been founded in collaboration with a research team from the universities of Cambridge and Columbia.
 While also offering CBT like \emph{Woebot}, \emph{Wysa} also offers guided meditation, breathing and yoga. Additionally, it conducts \emph{Dialectial Behaviour Therapy} (DBT).\footnote{https://emerj.com/ai-application-comparisons/chatbots-mental-health-therapy-comparing-5-current-apps-use-cases/, last access: 03.05.2021}
 \\
 DBT is a special type of CBT and focuses more on the way a patient deals with emotions and is suitable for patients with self-destructive behaviours. Common techniques are practicing mindfulness or 
 improving relationships to other individuals.\footnote{https://www.skylandtrail.org/4-differences-between-cbt-and-dbt-and-how-to-tell-which-is-right-for-you/, last access: 06.05.2021} 
 \\\\
 Inkster et. al \cite{Inkster} have shown that patients with a more frequent use of \emph{Wysa} have a significantly higher improvement of their mood than users
-with a less frequent usage. Their participants were human-beings around the globe who have been asked to install the Wysa app. One part of them used the app less often than the other one. In general, both groups showed an improvement. 74\% of the study participants provided an in-app feedback. Most of them preferred the pre-defined answers rather than free-text.
+with a less frequent usage. Their participants were human beings around the globe who have been asked to install the Wysa app. One part of them used the app less often than the other one. In general, both groups showed an improvement. 74\% of the study participants provided an in-app feedback. Most of them preferred the pre-defined answers rather than free text.
 While the app was generally considered as helpful and encouraging, the participants proposed improvements included wanting to avoid repetitions or a better understanding of user inputs.
-\\\\
+\\
 The way \emph{Wysa} stores user data deviates from \emph{Woebot}'s. Though \emph{Wysa} does not require a registration, it links all the collected data to a vendor-specific user id provided by \emph{Google Play} or App store. This approach leads to a pseudonymised data storage.
 If a user accidentally submits personal information during a conversation, it will be redacted by algorithms scanning the stored data regularly. In addition to conversational data, \emph{Wysa} stores anonymized technical data (platform, operating system), 
 financial data if an individual subscribes to paid offers and analytical data in order to improve their services. 
@@ -227,9 +233,9 @@ Considering safety aspects, \emph{Wysa} is quite similar to \emph{Woebot}. It al
 more serious. But as this service is not free of charge, it can not be seen as a general safety aspect. The \emph{Wysa} chatbot tries to deal with emergency situations the same way as \emph{Woebot} does. It notices user inputs like 'SOS' and provides helplines for further support.\cite{Kretzschmar2019}
 \section{General requirements}
 \label{sec:three}
-This Section will define requirements a chatbot should meet regarding efficacy, privacy and safety. Those three aspects have already been examined by Kretzschmar et.al \cite{Kretzschmar2019}, but only from the perspection of young adults as a result of a group discussion.
+This section will define requirements a chatbot should meet regarding efficacy, privacy and safety. Those three aspects have already been examined by Kretzschmar et.al \cite{Kretzschmar2019}, but only from the perspection of young adults as a result of a group discussion.
 \\
-Due to the fact that the usage of a mental health chatbot belongs to HCI, the following requirements will be based on its principles and research conducted in the field.
+Due to the fact that the usage of a mental health chatbot belongs to the field of HCI, the following requirements will be based on its principles and research conducted in the field.
 
 \subsection{Privacy}
 \label{sec:three_one}
@@ -239,7 +245,7 @@ An example for it is the General Data Protection Regulation by the European Unio
 \begin{figure}[h]
   \centering
   \includegraphics[width=\linewidth]{privacy_base}
-  \caption{The connection between information, comprehension, control, consciousness and consent, Graphic by Moritz Pflügner, 2021}
+  \caption{The connection between information, comprehension, control, consciousness and consent, graphic by Moritz Pflügner, 2021}
   \Description{The connection between information, comprehension, control, consciousness and consent}
   \label{fig:privacy_base}
 \end{figure}
@@ -264,10 +270,10 @@ Another aspect that has not been considered yet is the distinction between data 
 Data can be seen as raw facts. Data processing can retrieve information from them. During the processing, the data is structured or analysed in a specific context.\footnote{https://www.diffen.com/difference/Data\_vs\_Information, last access: 31.05.2021}
 \\ 
 Considering mental health chatbots, text-inputs respresent the data while
-the infered knowledge can be seen as information.
+the inferred knowledge can be seen as information.
 \\
 An interview with employees about their attitude towards a workplace robot conducted by Lee et. al \cite{Lee2011} showed that most participants did not make a distinction between the knowledge of the robot and the data it collects.
-The comparison between a physical robot and a chatbot is limited, but the distinguishing betwen data and information can be applied to chatbots as well. It is necessary for chatbot users to know, what inferences it can make based on the conversational text inputs they are providing. The underlying artifical intelligence a chatbot has should be transparently explained 
+The comparability between a physical robot and a chatbot is limited, but the distinction between data and information can be applied to chatbots as well. It is necessary for chatbot users to know, what inferences the bot can make based on the conversational text inputs they are providing. The underlying artifical intelligence a chatbot has should be transparently explained 
 to the user in order to raise awareness of problems that can come with intelligent algorithms such as false positive classifications.
 \\
 In order to summarize the privacy requirements of a chatbot for mental health it can be said that information is the most important one. Firstly, being informed about the processing of personal data leads to a conscious usage of the application which is essential to protect personal data. Secondly, information is necessary in order to know how data can be deleted or accessed. Finally, it helps to better understand the system and 
@@ -292,7 +298,7 @@ Donkin et. al \cite{Donkin} found a minimal completion rate of 56\% concerning o
 This can be considered as a further proof for Route 1 in Figure \ref{fig:routes}.  
 A couple of general design approaches promising an increase of therapy adherence are now being discussed.
 \\
-Ludden et. al \cite{Ludden2015} present personalization as one approach. Considering the PERMA abbrevation, personalization encourage the engagement of a user as the application has a higher personal relevance. If it is used by multiple groups of people, it should be adaptable to them in order to improve the experience.
+Ludden et. al \cite{Ludden2015} present personalization as one approach. Considering the PERMA abbrevation, personalization encourages the engagement of a user as the application has a higher personal relevance. If it is used by multiple groups of people, it should be adaptable to them in order to improve the experience.
 Secondly, they discuss an approach that prevents too much ambient information. They point out, that due to the daily information overload in the internet, users might not feel the desire to use the
 application online. Additionally it is possible, that individuals have made bad experiences with too much information that concerns the application but is irrelevant for the acutal usage. 
 Ludden et. al propose that users should not be overloaded with unneccessary information. According to them, this would lead to a more pleasureable experience (P in PERMA) and a better feeling of accomplishment (A in PERMA).
@@ -301,9 +307,9 @@ They note that the way human beings think about abstract things like challenges 
 \\
 An application which is personalized as well as focusing only on necessary information and using a sophisticated way to frame challenges and goals resembles a therapy with a human therapist.
 \\
-According to Ischen et.al \cite{Ischen} and Suganuma et.al \cite{Suganuma2018}, services with a higher perception in anthropomorphism lead to a better adherence.
+According to Ischen et.al \cite{Ischen} and Suganuma et.al \cite{Suganuma2018}, services with a higher perception of anthropomorphism lead to a better adherence.
 \\
-This result corresponds to the results of Ludden et.al \cite{Ludden2015} and hence supports the recommendation to implement the PERMA principles in applications for mental health like chatbots. 
+This result corresponds to the results of Ludden et al. \cite{Ludden2015} and hence supports the recommendation to implement the PERMA principles in applications for mental health like chatbots. 
 \\
 \subsection{Safety}
 \label{sec:three_three}
@@ -325,13 +331,19 @@ As a second aspect she notes that the applications should have a sufficient list
 After reviewing two chatbots for CBT and analysing requirements for HCI applications in general, some specific development recommendations are now being presented and discussed. 
 \subsection{Knowledge and Data Dashboard}
 \label{sec:four_one}
-In order to respect the privacy and take user concerns serious, chatbot-applications should only exist as a standlone app without the possibility to use it through a third-party application such as \emph{Facebook}'s messenger in the long term. It is understandable that small companies with limited
+\begin{figure*}[h]
+  \includegraphics[width=\textwidth]{kddb}
+  \caption{design mockup of a knowledge and data dashboard, graphic by Moritz Pflügner, 2021}
+  \Description{The connection between information, comprehension, control, consciousness and consent}
+  \label{fig:kddb}
+\end{figure*}
+In order to respect the privacy and take user concerns seriously, chatbot-applications should only exist as a standalone app without the possibility to use it through a third-party application such as \emph{Facebook}'s messenger in the long term. It is understandable that small companies with limited
 financial possibilites tend to deploy their implementation via a third-party application in order to reduce development costs. Moreover, the usage of well-established platforms like \emph{Facebook} helps to raise awareness on the one hand, while on the other hand it also reduces the effort for users since no installation is necessary. 
 But despite these conveniences, the dependence on another company's privacy policy makes the control over sensitive data impossible which is a crucial aspect within the 
 work of Patrick and Kenny\cite{Patrick2003}. Third-party applications can still be used as marketing platforms but the processing of sensitive data should be done within the control of the developing company.
 \\
 Furthermore, chatbot developers could implement a knowledge and data dashboard. A standalone app could have an extra view which is meant to access and control the data a chatbot has collected.
-This approach could have two major advantages. On the one hand, the chatbot user would always be able to get an insight into data that has been gathered. Additionally, those data could be enriched with the chat snippet or user input that has been the source of it. 
+This approach could have two major advantages. On the one hand, the chatbot user would always be able to get an insight into data that has been gathered. Additionally, the data could be enriched with the chat snippet or user input that has been the source of it. 
 This mapping of data and information would probably lead to a better understanding of both concepts in general and how the chatbot infers knowledge in particular. It would contribute to the result of Lee et. al \cite{Lee2011} who noted that users do not distinguish between data and information.
 In order to improve transparency, basic information about the used algorithm could be provided for users with specific interest or a technical background as well.
 \\
@@ -344,10 +356,10 @@ as they would not need to process deletion requests anymore.
 The implementation of a knowledge and data dashboard is one possible solution to sharpen the privacy focus. It is also conceivable to integrate the functionalities of the dashboard directly into the chat.
 A user input such as 'What do you know about me?' or 'What data have you collected so far?' could lead to an overview of the data in the same manner a dashboard would provide it.
 Commands like 'Delete the data!' could then start the wiping process. 
-Considering the distinguishing between data and information, questions like 'How did you come to the conclusion that I like rain?' could result in a detailed explaination on how the chatbot infered this particular knowledge.
+Considering the distinction between data and information, questions like 'How did you come to the conclusion that I like rain?' could result in a detailed explaination on how the chatbot inferred this particular knowledge.
 \\
 To summarize the idea of a knowledge and data dashboard it can be said that it has the potential to improve the trust of the users while simplifying adminstration processes of the company at the same time. 
-It would improve the comprehension of the system, giving a human-being control over the data collected by the chatbot and would finally lead to a higher consciousness on what kind of personal data is stored.
+It would improve the comprehension of the system, giving a human being control over the data collected by the chatbot and would finally lead to a higher consciousness on what kind of personal data is stored.
 \subsection{Chatbot Setup Phase}
 \label{sec:four_two}
 In \hyperref[sec:three_two]{Section 3.2} the PERMA abbrevation by Ludden et. al \cite{Ludden2015} has been presented which stands for certain aspects improving the efficacy of a chatbot. A specific development approach which respects PERMA could be the implementation of a quick setup phase prior to the actual chatbot usage.
@@ -356,29 +368,35 @@ During that, the chatbot could ask questions that aim to reach a better personal
 \begin{itemize}
 \item\textbf{Age}\\ 
 Nowadays, the internet is used by all generations.\footnote{http://www.ipsos-mori-generations.com/Internet-and-Technology-Use.html, last access: 22.05.2021}
-Therefore, personalization concerning the user age might be useful. Differences between a personalization for younger people and users who are older could be a different set of questions that are asked in order to examine the current mood.
+Therefore, personalization concerning the user's age might be useful. Differences between a personalization for younger people and users who are older could be a different set of questions that are asked in order to examine the current mood.
 Younger people probably feel more noticed if the chatbot asks about the school routine while questions regarding the workplace should address people of older generations.
 The chatbot could also adapt its language to the age of the user, which could lead to a higher sense of well-being as the conversation would resemble a dialogue with a friend. 
 \\
 \item\textbf{Name}\\
-Addressing people with their name is a quite common personalization approach in current applications and already implemented for Wysa and Woebot. It should be maintained for future developments.
+Addressing people with their name is quite a common personalization approach in current applications and already implemented for Wysa and Woebot. It should be maintained for future developments.
 \\
 \item\textbf{Design Preferences}\\
 While the consideration of the age can directly influence the questions asked during the conversation, aspects such as the design do not influence the dialogue but could help to improve the acceptance of the application if the appearance adapts to user preferences. 
 \\
 \item\textbf{Feedback}\\
-A common approach of chatbot based CBT is the recommendation of certain methods. The chatbot could ask after the accomplishment of a method if the individual liked it or not which would be useful knowledge for further method recommendations. It does not fit in the Chatbot Setup Phase but could
+A common approach of chatbot based CBT is the recommendation of certain CBT methods. The chatbot could ask after the accomplishment of a method if the individual liked it or not which would be useful knowledge for further method recommendations. It does not fit in the Chatbot Setup Phase but could
 be asked during the daily dialogues.
 \\
 \end{itemize} 
-Settings that are infered during the Chatbot-Setup-Phase could be integrated into the Knowledge and Data Dashboard as an extra part. It could be edited there as well if some of the preferences change during the usage.
+\begin{figure}[h]
+  \includegraphics[width=\linewidth]{chatbot_setup_phase}
+  \caption{design mockup of a chatbot setup phase, graphic by Moritz Pflügner, 2021}
+  \Description{The connection between information, comprehension, control, consciousness and consent}
+  \label{fig:setup_phase}
+\end{figure}
+Settings that are inferred during the Chatbot-Setup-Phase could be integrated into the Knowledge and Data Dashboard as an extra part. It could be edited there as well if some of the preferences change during the usage.
 \\
 Additional to the Chatbot-Setup-Phase, too much ambient information should be avoided and the main functionality focused. An argument against it could be the funding of the app. The reviewed examples \emph{Woebot} and \emph{Wysa} do not advertise within the application but it is a conceivable approach which leads 
 to a trade-off that has to be made. Examining to what extend advertisements are seen as disturbing ambient information and if they negatively influence the outcomes of the therapy could be part of future research. 
 \\
 \subsection{Safety certificate}
 \label{sec:four_three}
-As Grové \cite{Grove2021} points out, chabots for mental health should notice and react to critical situations in a sophisticated way due to the vulnerable target group. While the reviewed chatbots meet the requirements Kretzschmar et. al \cite{Kretzschmar2019} defined,
+As Grové \cite{Grove2021} points out, chatbots for mental health should notice and react to critical situations in a sophisticated way due to the vulnerable target group. While the reviewed chatbots meet the requirements Kretzschmar et. al \cite{Kretzschmar2019} defined,
 no information is provided about how they infer if a situation might be critical. In order to improve the general transparency, the developing companies could publish on their website either how the machine learning model of their applications infers 
 critical situations or what keywords lead to it in terms of natural language processing. Human therapists considering to support their therapy with the help of a CBT-chatbot could easily assess its safety capabilities with the provided information. This could lead to a higher use of chatbots in clinical settings.\\
 \\
@@ -386,26 +404,27 @@ A further step in the development of this approach is the awarding of a safety c
 This certificate could include certain aspects which therapists and doctors consider as crucial for the safety of a chatbot.\\ 
 Additionally, results of current research such as the safety aspects of Kretzschmar et. al \cite{Kretzschmar2019} that has been presented in \hyperref[sec:three_three]{Section 3.3} could be part of it.  
 The certificate would then be considered as a quality mark for safety.
-With the help of it, clinicians and therapists could easily assess if the application is suitable for their usage in a therapeutical environemnt.\\
+With the help of it, clinicians and therapists could easily assess if the application is suitable for their usage in a therapeutical environment.\\
 Thinking this further, the certificate could be expanded for privacy issues and efficacy as well. It would turn it into a general quality feature for mental health chatbots. The certificate would enforce the implementation of certain aspects. While this can tackle the mentioned problems, it could also lead to the situation
-that alternative concepts might not have a chance to compete on the market if they do not fulfil a certain aspect. Hence it would be necessary to keep the certificate dynamic. The conditions a chatbot-application has to meet in order to get it should not be static.
+that alternative concepts might not have a chance to compete on the market if they do not fulfil a certain aspect. Hence it would be necessary to keep the certificate dynamic. The conditions a chatbot-application has to meet in order to get it should not be static and regularly re-examined by experts with different backgrounds.
+Another approach would be a product-specific assessment. Companies who want to get the certificate would have to explain and justify their concepts and implementation of the mentioned aspects. Based on this presentation, the certificate could be awarded.
 
 \section{Summary}
 \label{sec:five}
-While the amount of people who use the internet as first source of information has increased\cite{Wyatt2015}, it nowadays offers many applications for CBT such as chatbots. 
+While the amount of people who use the internet as a first source of information has increased\cite{Wyatt2015}, it nowadays offers many applications for CBT such as chatbots. 
 \\
-Current and popular examples like \emph{Wysa} or \emph{Woebot} are available as a standalone app or through third-party applications. Studies have shown that the usage of them are efficiant, i.e they can improve the mood of their users significantly\cite{Fitzpatrick2017,Inkster}, but in order to tackle problems such as missing trust in a chatbot or a low therapy adherence, further improvements could be implemented like personalization 
+Current and popular examples like \emph{Wysa} or \emph{Woebot} are available as a standalone app or through third-party applications. Studies have shown that the usage of them are efficient, i.e. they can improve the mood of their users significantly\cite{Fitzpatrick2017,Inkster}, but in order to tackle problems such as missing trust in a chatbot or a low therapy adherence, further improvements could be implemented like personalization 
 or the provision of more transparency. To achieve that, a chatbot setup phase has been proposed in which specific questions could be asked concerning personal preferences and environment of the user. It could be considered as the preliminary talk prior to the therapy a human therapist conducts.
-The chatbot setup phase would lead to an implementation of the PERMA aspects, that Ludden et. al \cite{Ludden2015} proposed and which have been presented in \hyperref[sec:three_two]{Section 3.2}. Those aspects are promising to increase the general well-being of a user and hence the efficacy of the chabot application.
+The chatbot setup phase would lead to an implementation of the PERMA aspects, that Ludden et. al \cite{Ludden2015} proposed and which have been presented in \hyperref[sec:three_two]{Section 3.2}. Those aspects are promising to increase the general well-being of a user and hence the efficacy of the chatbot application.
 \\\\
 The developing companies of both reviewed chatbots transparently explain what data is stored for what purpose.
 Nevertheless, the review of general requirements for HCI applications has shown, that more information about data collection should be provided and how it is possible for the user to delete it\cite{Saglam2021}.
-Furthermore, it has been found that users are not distinguishing between data and information\cite{Lee2011}.
+Furthermore, it has been found that users are not distinction between data and information\cite{Lee2011}.
 In order to tackle those aspects, a knowledge and data dashboard has been proposed that constantly provides information about the data the chatbot has collected and what it did derive from it.
 The main advantages are the constant access to personal and sensitive data on the one hand. On the other hand, the provisioning of it could simplify and prevent administration processes such as deletion requests as they are done automatically via the dashboard.
 \\\\
 Considering safety aspects, the reviewed chatbots already meet the requirements Kretzschmar et. al \cite{Kretzschmar2019} proposed. Both of them explain that they are just robots and engage the user to do non-digital activities to prevent over-reliance.
-It can be considered as a weakness that the only option to figure out if the chatbot notifies and react to critical situations is a trial and error approach. Currently, the developing companies do not publish related information. In order to improve the transparency and to ease the assessment if an application is suitable for therpeutical use, a certificate has been suggested that would confirm the implementation of certain aspects and policies experts consider as crucial.
+It can be considered a weakness that the only option to figure out if the chatbot notices and reacts to critical situations is a trial and error approach. Currently, the developing companies do not publish related information. In order to improve the transparency and to ease the assessment if an application is suitable for therapeutical use, a certificate has been suggested that would confirm the implementation of certain aspects and policies experts consider as crucial.
 This certificate could be expanded to privacy and efficacy features as well which could result in a general quality feature for mental health chatbots.
 
 \section{Future Outlook}
@@ -416,11 +435,11 @@ The approach to split up the general chatbot-application into several specific o
 \\\\
 Furthermore \emph{WoebotHealth} is currently developing prescription digital therapeutics who aim to treat symptoms of certain mental illnesses. All of them are currently in the admission process, while the digital therapeutical \emph{WB001} has been designated by the \emph{FDA} (U.S Food and Drug Administration) as \emph{Breakthrough Device}.\textsuperscript{18}
 \\
-The development of prescription digital therapeutics could be one aspect regarding a more sustainable business model. Not only \emph{WoebotHealth} tries to reach health insurance providers, also \emph{Touchkin} announce on their website\footnote{https://www.wysa.io/, last access: 31.05.2021} that they are preparing to cooperate with them what could increase the number of users.
+The development of prescription digital therapeutics could be one aspect regarding a more sustainable business model. Not only \emph{WoebotHealth} tries to reach health insurance providers, also \emph{Touchkin} announce on their website\footnote{https://www.wysa.io/, last access: 31.05.2021} that they are preparing to cooperate with them which could increase the number of users.
 \\
 Additionally they are also offering their services to employers who might have a genuine interest in the mental health of their employees. Using mental health application in workplace environments could play a bigger role in the near future as it is promising to fill the gap between meditation and employee assistance programs.\footnote{https://www.wysa.io/for-employers, last access: 31.05.2021}
 \\\\
-With the development of the internet of things, it is also conceivable that chatbots for mental health become ubiquitous. Being able to start a conversation constantly, for example with a smart watch, might have a positive impact on the therapy adherence. According to Donkin et. al \cite{Donkin2011}, this would also have a positive impact on the the efficacy of the application in general.
+With the development of the internet of things, it is also conceivable that chatbots for mental health become ubiquitous. Being able to start a conversation at any moment, for example with a smart watch, might have a positive impact on the therapy adherence. According to Donkin et. al \cite{Donkin2011}, this would also have a positive impact on the the efficacy of the application in general.
 \\
 Nevertheless, more research is necessary to examine the connection between ubiquitous computing and the use of mental health chatbots.
 %%
